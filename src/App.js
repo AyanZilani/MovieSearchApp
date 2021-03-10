@@ -9,7 +9,7 @@ import id from './components/Details';
   const [movies, setMovies] =useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [currentPage, setCurrentPage] =useState(1);
-  const [ details,setDetails] = useState([]);
+  //const [ details,setDetails] = useState([]);
 
 
 
@@ -27,14 +27,14 @@ import id from './components/Details';
       });
   }
 
-  const getDetails = (API) =>{
+  /*const getDetails = (API) =>{
     fetch(API)
       .then((res) => res.json())
       .then ((data)=>{
           console.log(data.results);
           setDetails([data.results]);
       });
-  }
+  }*/
 
 
 
@@ -44,11 +44,11 @@ import id from './components/Details';
   
   }, []);
 
-    useEffect(() => {
+  /*  useEffect(() => {
 
     getDetails(D_API);
   
-  }, []);
+  }, []);*/
   
 
   const handleOnSubmit = (e) => {
