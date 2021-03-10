@@ -14,7 +14,7 @@ import id from './components/Details';
 
 
   
-  const List_API=`http://api.themoviedb.org/3/discover/movie?api_key=328c283cd27bd1877d9080ccb1604c91&primary_release_date.lte=2016-12-31&sort_by=release_date.desc&page=${currentPage}`;
+  const List_API=`https://api.themoviedb.org/3/discover/movie?api_key=328c283cd27bd1877d9080ccb1604c91&primary_release_date.lte=2016-12-31&sort_by=release_date.desc&page=${currentPage}`;
   const Search_API= 'https://api.themoviedb.org/3/search/movie?&api_key=328c283cd27bd1877d9080ccb1604c91&query=';
   const D_API=`http://api.themoviedb.org/3/movie/${id}?api_key=328c283cd27bd1877d9080ccb1604c91`;
   
